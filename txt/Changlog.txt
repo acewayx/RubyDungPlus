@@ -1,0 +1,173 @@
+Changlog for PSW !
+builds tagged as : SRC:ARCHIVED:NOT:BUILT , are builds that were built recently but the sourcecode was archived on the date provided.
+builds tagged as : PRIVATE , are builds that will not be released to the public as they are internal private testing builds.
+
+From unmodified files it seems like development began on 7.01.2026
+--------------
+36PRE1.0- 27KB - 11.01.2026 10:11 PRIVATE
+Oldest archived build , nothing to compare to,
+HOWEVER if i remember correctly i Exported this build to test if settings window works outside of testing.
+
+--------------------------------------
+35PRE1.0- 29KB - 12.01.2026 18:53 SRC:ARCHIVED:NOT:BUILT PRIVATE
+First Version to include an Save selection window at all
+This build seems to be really similar to the previous archived build.
+
+---------------------------------------------------------------------
+1PRE1.0- 39KB - 18.02.2026 21:25 SRC:ARCHIVED:NOT:BUILT PRIVATE
+This seems to be the first version that had a DELete button next to Saves in the level select window.
+Seems like this build changed how levels are handled as when loading levels from previous version all blocks will be replaced with grass, and previous versions cannot load levels from this version properly.
+Oldest build that included the seperated textures however they were incorrectly formatted and unused.
+This build seems to be really similar to the previous archived build.
+
+---------------------------------------------------------------------
+1PRE1.0-Variant- Unknown - 18.02.2026 SRC:ARCHIVED:NOT:BUILT PRIVATE
+This variant is diffrent from previous build 
+This variant cannot be built into a jar/zip
+This variant used a steve texture instead of atlas , probably a testing mesure as i was learning how to seperate the textures.
+
+----------------------------------------------------------------------------------------------
+1.0    - 43KB - 19.02.2026 13:27
+Initial Public Release!
+*******************************************************************************************************
+- this is written from my testing of this and previous builds as i do not remember the accual changlogs 
+*******************************************************************************************************
+Oldest compiled version (as i never archived the src) that properly used seperated textures instead of atlas.
+Oldest version that included slabs AND Tree-Blocks
+Prob first version where i figured out transparency in blocks and custom hitboxes of them as both of those blocks depend on that
+
+--------------------------------------------------------------------------------------------------------------------------------
+Anything below is from modrinth!
+----------------------------------
+1.01   - 46KB - 19.02.2026 22:05
+This version fixes the following things
+ Block selection does not glitch anymore as its been adjusted to blocks with custom sizes
+ Slabs no longer are see-through from the top while a block is above them
+*This is the last build whos file was called PSWAlphaReleaseX.X.zip
+
+--------------------------------------------------------------------------
+1.1    - 48KB - 20.02.2026 19:29
+This Update Adds :
+ Level creation settings Window.
+ Setting to set the Level type.
+ flat Level type.
+*This is the first build whos file was called RubyDungPlusAlphaReleaseX.X.zip
+
+---------------------------------
+1.1.5  - 47KB - 10.03.2026 23:33
+THIS IS AN EXPERIMENTAL UPDATE!
+ Added Block ticks.
+ Added gravel.
+ Added a Setting to regulate block tick speed(or disable it entirely) as high tick speed for blocks on older hardware may slow the game down.
+ Saplings now disappear if light is not accessible or is not planted on grass or dirt.
+ Changed how game handles blocks/tiles in some places.
+
+-------------------------------------------------------
+UNKNO  - 72KB - 11.03.2026 00:09 PRIVATE
+This was not released and there is no changlog on modrinth*
+I dont remember why this exists but its a full build which explains the size.
+its the only build archived that is in .jar format.
+the name of the file is minecraft.jar
+
+-------------------------------------
+PSW.EXP.NN - 76KB - 26.03.2026 16:13 SRC:ARCHIVED:NOT:BUILT PRIVATE
+EXP.NN stands for EXPERIMENTAL NEURAL NETWORK
+This is a branch of late 1.1.5 which was used as an experiment to guide steves on the map using neural network from around 2015 or smth dont remember
+It was hardware heavy and never will be published due to hacky feel of it and because it doesnt fit the main PSW theme
+I never succeeded in making them jump though.
+
+----------------------------------------------------------
+1.2    - 61KB - 21.04.2026 20:19
+Added "Alternative Textures" , so you can pick between more modern textures and the default ones, you can pick that in the settings window.
+Made so if your tickspeed is above 200000 gravel uses an alternative gravity option.
+
+-------------------------------------------------------------------------------------
+1.3    - 70KB - 12.05.2026 17:32
+Changed how you switch blocks from number keys to Q/E buttons
+Added a Selected block preview , now the selected block will render in the top right corner
+Added Interactable Block Functionality which you can activate by pressing the place button on an interactable block!
+Added tnt which you can activate by interacting with its block , they can activate each other too.
+
+---------------------------------------------------------------------------------------------------
+1.3.1  - 70KB - 12.05.2026 17:36 PRIVATE
+*not on modrinth as this version was never released
+Fixed how dynamite works basically but the chaining was still broken so it was not released once i realised that.
+Next version properly fixed dynamite!
+
+------------------------------------------------------------------------------------------------------------------
+1.3.2  - 70KB - 12.05.2026 17:50
+QUICKFIX
+ Fixed how Dynamite worked as a test from testing was not removed in 1.3.0 , the bug caused for Dynamite to swap around blocks instead of for air for an ID higher than the previous block , this was fixed.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1.4PR1 - 77KB - 16.05.2026 16:57
+THIS IS AN PRE-RELEASE VERSION OF 1.4 , IT MAY BE INCOMPLETE AND UNSTABLE
+worlds generated and played on this version are not guaranteed to work full release
+Blocks :
+ Added Sand
+ Added Water
+ Added Leaves
+ 1NOTE : Leaves only generate naturally and you cannot place them
+ 2NOTE : Water is currently unused as it was glitchy and is in development
+General Changes :
+ Transparent blocks such as Leaves no longer cast shadows.
+ Added Experimental "Render Distance" , its however currently unused as its only enabled on worlds bigger than default 256x256.
+ Added Naturally generating trees on the default world type.
+
+-------------------------------------------------------------
+1.4PR2 - 82KB - 17.05.2026 16:21
+THIS IS AN PRE-RELEASE VERSION OF 1.4 , IT MAY BE INCOMPLETE AND UNSTABLE
+worlds generated and played on this version are not guaranteed to work full release
+ Fixed a bug where the slab would use the top texture while being a bottom slab.
+ Changed how slabs connect into double slab from a check while placing to ticking.
+ Added "replacable" blocks.
+ While placing blocks on water or tree-block now instead of placing the block normally it will replace the selected block.
+ Added Naturally generating water.
+ Added an option to disable naturally generating water.
+ Added so you can "swim" in water.
+ Added glass
+
+---------------------------
+1.4PR3 - 91KB - 24.05.2026 - 21:00
+this is a test build
+This build made the window titles consistant
+Added World Border
+Added Thin Glass
+Removed Press R to teleport to random location
+Location of the player now saves !
+WARNING , this version changes how saving works just by a tiny bit but I still needed to make an "Backup loader" , if you load older saves , PLEASE see the logs on the console.
+Added Block called for now "Resizable"
+Changed how Selected Blocks Render
+Changed how indestructable blocks are handled
+Changed How hitboxes are handled
+Changed How Water renders and its hitbox
+Changed Hitbox of the Tree-Block
+Changed Hitbox of the slab 
+
+---------------------------
+1.4.0 - 101KB - 18.06.2026 - 19:44
+Added Block data , Blocks can store basic data now!
+Added doors.
+Added Mossy Rock.
+Added new interaction triggers , intOnPlace and intOnBreak
+Changed how renderdistance works , Its now more efficient and better , it also now can be enabled in settings on any world !
+Added Setting to regulate the Render Distance , please check the mod description to understand how that works.
+Changed how slabs work, yet again:
+- You can now place slabs that are in the top part of the block.
+- Removed the original doubleSlab and replaced it with a Slab with BlockData of 2.
+- Made so old doubleslabs are converted into new ones during loading.
+- Added Structure made out of Mossy Rock.
+
+-----------------------------------------
+1.4.1 - ---KB - --.--.---- - --:--
+Added a version check that displays a message if your game is outdated
+
+
+
+
+
+
+
+
+
+
