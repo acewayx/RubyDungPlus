@@ -161,8 +161,8 @@ Changed how slabs work, yet again:
 -----------------------------------------
 1.4.1 - ---KB - --.--.---- - --:--
 Added a version check that displays a message if your game is outdated
-
-
+Added a Music system , thanks so much to Segnéir dechu (theswordmasters) for letting me use their music.
+Changed how you set the render distance , from a text field in settings to just pressing the F button.
 
 
 
